@@ -1,0 +1,56 @@
+.card{
+    margin:1rem;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #EF233C;
+    color: #EDF2F4;
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin:1rem;
+    gap:1rem;
+}
+input{
+    justify-content: center;
+    align-items: center;
+}
+
+.stretched-link{
+    pointer-events:none;
+}
+
+
+input[type="text"]{
+    background-color:#8D99AE;
+    color: #EDF2F4;
+}
+
+input[type="text"]::placeholder {
+    color: #EDF2F4;
+}
+input[type="button"]{
+    z-index: 1;
+    background-color: #8D99AE;
+}
+input[type="submit"]{
+    background-color: #8D99AE;
+    color: #EDF2F4
+}
+body{
+    color-scheme: dark;
+    background-color: #2B2D42;
+    color : #D90429;
+}
+
+::placeholder{
+    text-align: center;
+    color: #EDF2F4;
+}
+limited{
+    max-width:300px;
+}
