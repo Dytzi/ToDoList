@@ -42,7 +42,7 @@ function createCard(toDo){
     column.appendChild(card)
 
 
-    button.addEventListener("click", () => card.remove())
+    button.addEventListener("click", () => column.remove())
     sLink.addEventListener("click",() => cross(text))
 
     deck.appendChild(column);
