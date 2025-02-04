@@ -48,6 +48,7 @@ input[type="submit"]{
     color: #EDF2F4
 }
 body{
+    flex-direction: column;
     color-scheme: dark;
     background-color: #2B2D42;
     color : #D90429;
@@ -59,4 +60,7 @@ body{
 }
 limited{
     max-width:300px;
+}
+h1{
+    text-align: center;
 }
